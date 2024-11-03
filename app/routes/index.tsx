@@ -12,7 +12,10 @@ export default createRoute((c) => {
       <div class={className}>
           <h1>Hello, {name}!</h1>
           <Counter/>
-          <a href='/post-test'>post-testへ</a>
+          <ul>
+              <li><a href="/post-test">post-testへ</a></li>
+              <li><a href="/post-test2">post-test2へ</a></li>
+          </ul>
       </div>,
       {title: name}
     );

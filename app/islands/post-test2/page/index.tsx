@@ -37,6 +37,7 @@ export const Page: FC<Props> = ({name}) => {
     return (
       <div>
           <h1>Hello POST, {displayName}!</h1>
+          <p>DBからデータ取ったりDBにデータ保存・更新したり</p>
           <form action={post} >
               <input type="text" name="name" placeholder="name" />
               <input type="submit"/>
